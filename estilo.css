@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1 {
+    padding: 16px;
+}
+
+.area-de-jogo {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 10px 10px;
+}
+
+* .quadrado {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #a3a2a2;
+    color: #000;
+    font-size: 60px;
+    font-weight: 600;
+    cursor: pointer;
+    /* border: 3px solid red; */
+}
+
+.jogador {
+    padding-top: 16px;
+}
+
+.vencedor {
+    padding-top: 16px;
+}
+
+#reiniciar {
+    padding: 16px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #000;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
